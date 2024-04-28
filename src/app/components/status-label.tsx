@@ -19,7 +19,7 @@ export default function StatusLable({
   status,
   disabled,
 }: StatusLableProps) {
-  console.log(process.env.CRM_SECRET_KEY);
+  // console.log(process.env.CRM_SECRET_KEY);
   return (
     <div
       className={clsx(
